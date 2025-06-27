@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jess</title>
+    <title>My Portfolio Website</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="./scripts/index.js" defer></script>
 </head>
@@ -13,75 +13,77 @@
 
     <section>
         <nav class="sticky top-0 z-50 bg-transparent shadow-md">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
 
-                <div class="flex-shrink-0">
-                    <a href="#" class="text-xl font-bold text-gray-800"><img class="h-12 sm:h-16 md:h-20 lg:h-24 xl:h-28 w-auto"
-                            src="./images/jessluxe.png" alt=""></a>
+                    <div class="flex-shrink-0">
+                        <a href="#" class="text-xl font-bold text-gray-800"><img
+                                class="h-12 sm:h-16 md:h-20 lg:h-24 xl:h-28 w-auto" src="./images/jessluxe.png"
+                                alt=""></a>
+                    </div>
+
+                    <div class="md:hidden">
+                        <button id="menu-toggle" class="text-gray-800 focus:outline-none">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Navigation links -->
+                    <div class="hidden md:flex space-x-8">
+                        <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-600">About</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-600">Portfolio</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-600">Contact</a>
+                    </div>
                 </div>
 
-                <div class="md:hidden">
-                    <button id="menu-toggle" class="text-gray-800 focus:outline-none">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
-                </div>
-
-                <!-- Navigation links -->
-                <div class="hidden md:flex space-x-8">
-                    <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
-                    <a href="#" class="text-gray-700 hover:text-blue-600">About</a>
-                    <a href="#" class="text-gray-700 hover:text-blue-600">Portfolio</a>
-                    <a href="#" class="text-gray-700 hover:text-blue-600">Contact</a>
+                <!-- Mobile menu -->
+                <div id="mobile-menu" class="md:hidden hidden flex-col mt-2 space-y-2">
+                    <a href="#" class="block text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="#" class="block text-gray-700 hover:text-blue-600">About</a>
+                    <a href="#" class="block text-gray-700 hover:text-blue-600">Services</a>
+                    <a href="#" class="block text-gray-700 hover:text-blue-600">Contact</a>
                 </div>
             </div>
+        </nav>
 
-            <!-- Mobile menu -->
-            <div id="mobile-menu" class="md:hidden hidden flex-col mt-2 space-y-2">
-                <a href="#" class="block text-gray-700 hover:text-blue-600">Home</a>
-                <a href="#" class="block text-gray-700 hover:text-blue-600">About</a>
-                <a href="#" class="block text-gray-700 hover:text-blue-600">Services</a>
-                <a href="#" class="block text-gray-700 hover:text-blue-600">Contact</a>
-            </div>
-        </div>
-    </nav>
+        <div class="relative bg-purple-400 overflow-hidden">
+            <div class="max-w-7xl mx-auto">
+                <div
+                    class="relative z-10 pb-8 bg-purple-100 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+                    <div class="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+                        <div class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                            <div class="sm:text-center lg:text-left">
+                                <h2
+                                    class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                                    <span class="block">Hi, I'm Jessica </span>
+                                    <span class="block text-purple-600">A Frontend Web Developer</span>
+                                </h2>
+                                <p
+                                    class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                                    Welcome to my site
+                                </p>
+                                <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                                    <div class="rounded-md shadow">
+                                        <a href="https://www.canva.com/design/DAGpJLRj6NA/rf3DtJYGpNurfuj-k6CStw/view?utm_content=DAGpJLRj6NA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf7e77be001"
+                                            class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 md:py-4 md:text-lg md:px-10">
+                                            HIRE ME
+                                        </a>
+                                    </div>
 
-    <div class="relative bg-purple-400 overflow-hidden">
-        <div class="max-w-7xl mx-auto">
-            <div class="relative z-10 pb-8 bg-purple-100 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-                <div class="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
-                    <div class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                        <div class="sm:text-center lg:text-left">
-                            <h2 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                                <span class="block">Hi, I'm Jessica </span>
-                                <span class="block text-purple-600">A Frontend Web Developer</span>
-                            </h2>
-                            <p
-                                class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                                Welcome to my site
-                            </p>
-                            <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                                <div class="rounded-md shadow">
-                                    <a href="https://my-portfolio-website-two-bice.vercel.app/"
-                                        class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 md:py-4 md:text-lg md:px-10">
-                                        HIRE ME
-                                    </a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class=" relative w-full lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+                <img class="h-64 w-full object-cover sm:h-80 md:h-96  lg:h-full" src="./images/jess.jpeg" alt="Jessica">
+            </div>
         </div>
-        <div class=" relative w-full lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-            <img class="h-64 w-full object-cover sm:h-80 md:h-96  lg:h-full" src="./images/jess.jpeg"
-                alt="Jessica">
-        </div>
-    </div>
     </section>
     <section id="about" class="bg-white py-16 px-4 md:px-8 lg:px-16">
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
@@ -103,7 +105,7 @@
                 </p>
 
                 <div class="mt-6">
-                    <a href="jessicaowusuaaning-resume.pdf"
+                    <a href="file:///C:/Users/jessica%20aning/Downloads/Jessica%20Aning%20-%20resume.pdf"
                         class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition">
                         DOWNLOAD RESUME
                     </a>
@@ -127,28 +129,28 @@
                 <!-- Card 1 -->
                 <div
                     class=" card1 bg-white p-6 rounded-2xl shadow-md transform hover:scale-105 transition duration-300 animate-fade-in">
-                    <h3 class="text-xl font-semibold text-yellow-600 mb-2">HTML/CSS/Tailwincss</h3>
-                    <p class="text-gray-600">Strong in writing clean, semantic HTML5 code to structure web pages for accessibility and responsive design.Skilled in styling websites using both traditional CSS and utility-first Tailwind CSS.</p>
+                    <img class="size-40 shrink-0" src="./images/github.jpg" alt="">
+                    <img class="size-40 shrink-0" src="./images/html.jpg" alt="">
                 </div>
 
                 <!-- Card 2 -->
                 <div
                     class="card2 bg-white p-6 rounded-2xl shadow-md transform hover:scale-105 transition duration-300 animate-fade-in delay-100">
-                    <h3 class="text-xl font-semibold text-yellow-600 mb-2">JavaScript</h3>
-                    <p class="text-gray-600">Creating fast and scalable backend APIs with RESTful architecture. Capable of using JavaScript to add interactivity to web pages—form validation, dynamic content, and DOM manipulation.
-
-</p>
+                    <img class="size-40 shrink-0" src="./images/tailwind.jpg" alt="">
+                    <img class="size-40 shrink-0" src="./images/js.jpg" alt="">
                 </div>
 
                 <!-- Card 3 -->
                 <div
-                    class=" card3 bg-white p-6 rounded-2xl shadow-md transform hover:scale-105 transition duration-300 animate-fade-in delay-200">
-                    <h3 class="text-xl font-semibold text-yellow-600 mb-2">GitHub</h3>
-                    <p class="text-gray-600">Proficient in using GitHub for version control and project collaboration. I can manage repositories, push commits, create branches, and handle pull requests for team projects efficiently.</p>
+                    class=" card3 bg-white grid-cols-center content-around p-6 rounded-2xl shadow-md transform hover:scale-105 transition duration-300 animate-fade-in delay-200">
+                    <img class="size-40 shrink-0" src="./images/ps.jpg" alt="">
+                    <img class="size-40 shrink-0" src="./images/ai.jpg" alt="">
                 </div>
+            </div>
+        </div>
     </section>
 
-    <section class=" pro1 flex flex-col mt-30">
+    <section class=" pro1 flex flex-col mt-20">
         <h2 class="text-4xl font-bold text-center text-gray-800 mb-10">My Projects</h2>
 
         <section class="md:flex flex-row mt-15 mx-20">
@@ -166,7 +168,8 @@
 
                 <div class="flex mx-34">
                     <a href="https://landing-page-lake-alpha.vercel.app/">
-                        <button class="bg-purple-700 text-white border border-purple-700 hover:bg-purple-400 px-4 py-2 mt-2 rounded">VIEW</button>
+                        <button
+                            class="bg-purple-700 text-white border border-purple-700 hover:bg-purple-400 px-4 py-2 mt-2 rounded">VIEW</button>
                     </a>
                 </div>
             </div>
@@ -175,15 +178,14 @@
         <section class="md:flex flex-row mt-15 mx-20">
 
             <div class="flex flex-col justify-center md:w-1/2 p-8">
-                <h2 class="text-3xl"><Span class="text-purple-600 italic"> HTML & Tailwind Project ( landing-page)</h2>
-                <p class="text-gray-600">A sleek, visually appealing fashion website <br> designed to showcase
-                    collections
-                    and offer a <br>seamless user experience with responsive layouts.
+                <h2 class="text-3xl"><Span class="text-purple-600 italic"> Group Project using react</h2>
+                <p class="text-gray-600">A sleek, visually appealing responsive Advertisement App<br>
                 </p>
 
                 <div class="flex mx-34">
-                    <a href="https://new-tailwind-cyan.vercel.app/">
-                        <button class="bg-purple-700 text-white border border-purple-700 hover:bg-purple-400 px-4 py-2 mt-2 rounded">VIEW</button>
+                    <a href="https://adifyc5.netlify.app/">
+                        <button
+                            class="bg-purple-700 text-white border border-purple-700 hover:bg-purple-400 px-4 py-2 mt-2 rounded">VIEW</button>
                     </a>
                 </div>
             </div>
@@ -191,29 +193,27 @@
 
             <div>
                 <a href="http://">
-                    <img src="/images/asset14.jpeg" class="w-50%" alt="logo" alt="">
+                    <img src="/images/asset18.jpeg" class="w-50%" alt="logo" alt="">
                 </a>
             </div>
         </section>
 
 
-        <section class="md:flex flex-row mt-20 mx-15">
+        <section class="md:flex flex-row mt-15 mx-15">
             <div>
                 <a href="http://">
-                    <img src="/images/asset14.jpeg" class="w-50%" alt="logo" alt="">
+                    <img src="/images/asset11.jpeg" class="w-50%" alt="logo" alt="">
                 </a>
             </div>
             <div class=" pro3 flex flex-col justify-center md:w-1/2 p-8">
-                <h2 class="text-3xl"><Span class="text-purple-600 italic"> HTML,CSS & JAVASRIPT Project (Fashion
-                        Website)</h2>
-                <p class="text-gray-600">A sleek, visually appealing fashion website <br> designed to showcase
-                    collections
-                    and offer a <br>seamless user experience with responsive layouts.
-                </p>
+                <h2 class="text-3xl"><Span class="text-purple-600 italic"> HTML,CSS & JAVASRIPT Project </h2>
+                <!-- <p class="text-gray-600">A sleek, visually appealing website
+                </p> -->
 
-                <div class="flex mx-34">
+                <div class="flex mx-15">
                     <a href="https://portfolio-sandy-mu-80.vercel.app/">
-                        <button class="bg-purple-700 text-white border border-purple-700 hover:bg-purple-400 px-4 py-2 mt-2 rounded">VIEW</button>
+                        <button
+                            class="bg-purple-700 text-white border border-purple-700 hover:bg-purple-400 px-4 py-2 mt-2 rounded">VIEW</button>
                     </a>
                 </div>
             </div>
@@ -222,54 +222,87 @@
 
     <section class="bg-purple-600 py-16 px-6 md:px-20 mt-20">
         <div class="max-w-6xl mx-auto">
-            <!-- Header -->
-            <div class="mb-10 text-center md:text-left">
-                <h2 class="text-4xl font-bold text-white"> Work Experience</h2>
+            <div class="flex flex-row gap-120">
+                <!-- Header -->
+                <div class="mb-10 text-center md:text-left">
+                    <h2 class="text-4xl font-bold text-white"> Work Experience</h2>
+                </div>
+                <div class="mb-10 text-center md:text-left text-white space-y-2">
+                    <h2 class="text-4xl font-bold text-white"> Education</h2>
+                </div>
             </div>
 
             <!-- Experience Item 1 -->
-            <div class="bg-purple-500 rounded-xl p-6 mb-6 md:flex md:justify-between md:items-start">
-                <div class="mb-4 md:mb-0">
-                    <h4 class="text-white font-semibold">May 05, 2025 – Present</h4>
-                </div>
-                <div class="text-white space-y-2">
-                    <p class="font-semibold">💻 Web Development (MEST Africa – Ongoing)</p>
+            <div
+                class="bg-purple-500 rounded-xl p-8 mb-6 md:flex md:justify-between justify-evenly justify-around md:items-start">
+                <div class="mb-4 md:mb-0 text-white ">
+                    <p class="text-white font-semibold">2024 – PRESENT
+                        <br>FREELANCE FASHION ILLUSTRATOR, JESSLUXE STUDIO
+                    </p>
+
                     <ul class="list-disc list-inside">
-                        <li>Training in front-end and back-end development</li>
+                        <li>Fashion Website (HTML, CSS) - A fashion landing <br>page showcasing fashion items</li>
                         <li>Hands-on projects with real-world tools and frameworks</li>
                         <li>Focus on responsive design and team collaboration</li>
+                    </ul>
+                </div>
+                <div class="text-white space-y-2">
+                    <p class="font-semibold">May 05, 2025 – PRESENT <br>Web Development (MEST Africa – Ongoing)</p>
+                    <ul class="list-disc list-inside">
+                        <li>Training in front-end and back-end development</li>
+                        <li>Portfolio Website (HTML, CSS, JavaScript) - <br>A personal portfolio with interactive
+                            elements.</li>
+                        <li>Responsive Website (HTML, Tailwind CSS) - <br>A fully responsive website designed with
+                            Tailwind css</li>
                     </ul>
                 </div>
             </div>
 
             <!-- Experience Item 2 -->
-            <div class="bg-purple-500 rounded-xl p-6 md:flex md:justify-between md:items-start">
-                <div class="mb-4 md:mb-0">
-                    <h4 class="text-white font-semibold">2017 – 2020</h4>
+            <!-- Experience Item 1 -->
+            <div
+                class="bg-purple-500 rounded-xl p-8 mb-6 md:flex md:justify-between justify-evenly justify-around md:items-start">
+                <div class="mb-4 md:mb-0 text-white ">
+                    <p class="text-white font-semibold">FASHION ILLUTRATION INSTRUCTOR, ICCES </p>
+
+                    <ul class="list-disc list-inside">
+                        <li>Designed and delivered engaging and comprehensive lessons in fashion illustration,
+                            <br>focusing
+                            on both traditional and digital techniques. </li>
+                        <li></li>Developed course materials, <br>including curriculum plans, assignments, and
+                        assessments,
+                        <br>tailored to meet the needs of students with various skill levels.
+                        <li>Focus on responsive design and team collaboration</li>
+                    </ul>
                 </div>
                 <div class="text-white space-y-2">
-                    <p class="font-semibold">💻 fashion Design (BlueCrest University College)</p>
+                    <p class="font-semibold"> March 2017 – December 2020 <br>BSc Fashion Design (BlueCrest University College)</p>
                     <ul class="list-disc list-inside">
-                        <li>Key skills in Fashion Illustration, Photoshop, <br>Fashion Portfolio Development</li>
-                        <li>Hands-on projects with real-world tools and frameworks</li>
-                        <li>Focus on creative fashion portfolios and collections</li>
+                        <li>Training in front-end and back-end development</li>
+                        <li>Portfolio Website (HTML, CSS, JavaScript) - <br>A personal portfolio with interactive
+                            elements.</li>
+                        <li>Responsive Website (HTML, Tailwind CSS) - <br>A fully responsive website designed with
+                            Tailwind css</li>
                     </ul>
                 </div>
             </div>
+        </div>
+        </div>
         </div>
     </section>
 
     <footer style="background-color: #6a0dad; color: white; padding: 20px; text-align: center;">
         <p>&copy; 2025 Jessica Owusua Aning. All rights reserved.</p>
         <p>
-            <a href="mailto:jersycaowusu@gmail.com" style="color: white; text-decoration: underline;">Contact Me</a>
+            <a href="" style="color: white; text-decoration: underline;">Contact Me</a>
             |
-            <a href="https://www.linkedin.com/in/your-link" target="_blank"
-                style="color: white; text-decoration: underline;">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/jessica-aning-797162321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank" style="color: white; text-decoration: underline;">LinkedIn</a>
             |
             <a href="https://my-portfolio-website-two-bice.vercel.app/" target="_blank"
                 style="color: white; text-decoration: underline;">Portfolio</a>
         </p>
     </footer>
 </body>
+
 </html>
