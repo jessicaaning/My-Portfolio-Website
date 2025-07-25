@@ -11,13 +11,13 @@
 
 <body>
 
-    <section>
+    <section id="home">
         <nav class="sticky top-0 z-50 bg-transparent shadow-md">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-16">
 
                     <div class="flex-shrink-0">
-                        <a href="#" class="text-xl font-bold text-gray-800"><img
+                        <a href="#home" class="text-xl font-bold text-gray-800"><img
                                 class="h-12 sm:h-16 md:h-20 lg:h-24 xl:h-28 w-auto" src="./images/jessluxe.png"
                                 alt=""></a>
                     </div>
@@ -33,19 +33,19 @@
 
                     <!-- Navigation links -->
                     <div class="hidden md:flex space-x-8">
-                        <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
-                        <a href="#" class="text-gray-700 hover:text-blue-600">About</a>
-                        <a href="#" class="text-gray-700 hover:text-blue-600">Portfolio</a>
-                        <a href="#" class="text-gray-700 hover:text-blue-600">Contact</a>
+                        <a href="#home" class="text-gray-700 hover:text-blue-600">Home</a>
+                        <a href="#about" class="text-gray-700 hover:text-blue-600">About</a>
+                        <a href="#projects" class="text-gray-700 hover:text-blue-600">Portfolio</a>
+                        <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
                     </div>
                 </div>
 
                 <!-- Mobile menu -->
                 <div id="mobile-menu" class="md:hidden hidden flex-col mt-2 space-y-2">
-                    <a href="#" class="block text-gray-700 hover:text-blue-600">Home</a>
-                    <a href="#" class="block text-gray-700 hover:text-blue-600">About</a>
-                    <a href="#" class="block text-gray-700 hover:text-blue-600">Services</a>
-                    <a href="#" class="block text-gray-700 hover:text-blue-600">Contact</a>
+                    <a href="#home" class="block text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="#about" class="block text-gray-700 hover:text-blue-600">About</a>
+                    <a href="#projects" class="block text-gray-700 hover:text-blue-600">Portfolio</a>
+                    <a href="#contact" class="block text-gray-700 hover:text-blue-600">Contact</a>
                 </div>
             </div>
         </nav>
@@ -68,7 +68,7 @@
                                 </p>
                                 <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                     <div class="rounded-md shadow">
-                                        <a href="https://www.canva.com/design/DAGpJLRj6NA/rf3DtJYGpNurfuj-k6CStw/view?utm_content=DAGpJLRj6NA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf7e77be001"
+                                        <a href="#about"
                                             class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 md:py-4 md:text-lg md:px-10">
                                             HIRE ME
                                         </a>
@@ -81,7 +81,8 @@
                 </div>
             </div>
             <div class=" relative w-full lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-                <img class="h-64 w-full object-cover sm:h-80 md:h-96  lg:h-full" src="./images/jess.jpeg" alt="Jessica">
+                <img class="h-64 w-full object-cover sm:h-80 md:h-96 lg:h-full" src="./images/jess.jpeg"
+                    alt="Jessica">
             </div>
         </div>
     </section>
@@ -105,7 +106,7 @@
                 </p>
 
                 <div class="mt-6">
-                    <a href="file:///C:/Users/jessica%20aning/Downloads/Jessica%20Aning%20-%20resume.pdf"
+                    <a href="https://1drv.ms/b/c/C07A050B85BB5898/ETjRr2wsQTtJo2nn8j2-r_wBJWh6JfZSX1YdOViIaDjlfw" target="_blank"
                         class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition">
                         DOWNLOAD RESUME
                     </a>
@@ -120,7 +121,7 @@
         </div>
     </section>
 
-    <section class=" skills bg-gray-100 py-12">
+    <section id="skills" class=" skills bg-gray-100 py-12">
         <div class="max-w-6xl mx-auto px-4">
             <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">Professional Skills</h2>
 
@@ -150,24 +151,24 @@
         </div>
     </section>
 
-    <section class=" pro1 flex flex-col mt-20">
+    <section id="projects" class=" pro1 flex flex-col mt-20">
         <h2 class="text-4xl font-bold text-center text-gray-800 mb-10">My Projects</h2>
 
         <section class="md:flex flex-row mt-15 mx-20">
             <div>
-                <a href="http://">
-                    <img src="/images/asset14.jpeg" class="w-50%" alt="logo" alt="">
+                <a href="https://landing-page-lake-alpha.vercel.app/" target="_blank">
+                    <img src="/images/asset14.jpeg" class="w-full md:w-1/2" alt="Fashion Website Screenshot">
                 </a>
             </div>
             <div class="flex flex-col justify-center md:w-1/2 p-8">
-                <h2 class="text-3xl"><Span class="text-purple-600 italic"> HTML & CSS Project (Fashion Website)</h2>
+                <h2 class="text-3xl"><Span class="text-purple-600 italic"> HTML & CSS Project (Landing Page)</h2>
                 <p class="text-gray-600">A sleek, visually appealing fashion website <br> designed to showcase
                     collections
                     and offer a <br>seamless user experience with responsive layouts.
                 </p>
 
-                <div class="flex mx-34">
-                    <a href="https://landing-page-lake-alpha.vercel.app/">
+                <div class="flex">
+                    <a href="https://landing-page-lake-alpha.vercel.app/" target="_blank">
                         <button
                             class="bg-purple-700 text-white border border-purple-700 hover:bg-purple-400 px-4 py-2 mt-2 rounded">VIEW</button>
                     </a>
@@ -178,12 +179,12 @@
         <section class="md:flex flex-row mt-15 mx-20">
 
             <div class="flex flex-col justify-center md:w-1/2 p-8">
-                <h2 class="text-3xl"><Span class="text-purple-600 italic"> Group Project using react</h2>
+                <h2 class="text-3xl"><Span class="text-purple-600 italic"> Group Project using React.js</h2>
                 <p class="text-gray-600">A sleek, visually appealing responsive Advertisement App<br>
                 </p>
 
-                <div class="flex mx-34">
-                    <a href="https://adifyc5.netlify.app/">
+                <div class="flex">
+                    <a href="https://adifyc5.netlify.app/" target="_blank">
                         <button
                             class="bg-purple-700 text-white border border-purple-700 hover:bg-purple-400 px-4 py-2 mt-2 rounded">VIEW</button>
                     </a>
@@ -192,8 +193,8 @@
 
 
             <div>
-                <a href="http://">
-                    <img src="/images/asset18.jpeg" class="w-50%" alt="logo" alt="">
+                <a href="https://adifyc5.netlify.app/" target="_blank">
+                    <img src="/images/asset18.jpeg" class="w-full md:w-1/2" alt="Advertisement App Screenshot">
                 </a>
             </div>
         </section>
@@ -201,17 +202,17 @@
 
         <section class="md:flex flex-row mt-15 mx-15">
             <div>
-                <a href="http://">
-                    <img src="/images/asset11.jpeg" class="w-50%" alt="logo" alt="">
+                <a href="https://portfolio-sandy-mu-80.vercel.app/" target="_blank">
+                    <img src="/images/asset11.jpeg" class="w-full md:w-1/2" alt="Portfolio Website Screenshot">
                 </a>
             </div>
             <div class=" pro3 flex flex-col justify-center md:w-1/2 p-8">
-                <h2 class="text-3xl"><Span class="text-purple-600 italic"> HTML,CSS & JAVASRIPT Project </h2>
+                <h2 class="text-3xl"><Span class="text-purple-600 italic"> Project using React.js</h2>
                 <!-- <p class="text-gray-600">A sleek, visually appealing website
                 </p> -->
 
-                <div class="flex mx-15">
-                    <a href="https://portfolio-sandy-mu-80.vercel.app/">
+                <div class="flex">
+                    <a href="https://taste-of-north-ghana.netlify.app/" target="_blank">
                         <button
                             class="bg-purple-700 text-white border border-purple-700 hover:bg-purple-400 px-4 py-2 mt-2 rounded">VIEW</button>
                     </a>
@@ -220,7 +221,7 @@
         </section>
     </section>
 
-    <section class="bg-purple-600 py-16 px-6 md:px-20 mt-20">
+    <section id="experience" class="bg-purple-600 py-16 px-6 md:px-20 mt-20">
         <div class="max-w-6xl mx-auto">
             <div class="flex flex-row gap-120">
                 <!-- Header -->
@@ -268,15 +269,18 @@
                     <ul class="list-disc list-inside">
                         <li>Designed and delivered engaging and comprehensive lessons in fashion illustration,
                             <br>focusing
-                            on both traditional and digital techniques. </li>
-                        <li></li>Developed course materials, <br>including curriculum plans, assignments, and
-                        assessments,
-                        <br>tailored to meet the needs of students with various skill levels.
+                            on both traditional and digital techniques.
+                        </li>
+                        <li>Developed course materials, <br>including curriculum plans, assignments, and
+                            assessments,
+                            <br>tailored to meet the needs of students with various skill levels.
+                        </li>
                         <li>Focus on responsive design and team collaboration</li>
                     </ul>
                 </div>
                 <div class="text-white space-y-2">
-                    <p class="font-semibold"> March 2017 – December 2020 <br>BSc Fashion Design (BlueCrest University College)</p>
+                    <p class="font-semibold"> March 2017 – December 2020 <br>BSc Fashion Design (BlueCrest University
+                        College)</p>
                     <ul class="list-disc list-inside">
                         <li>Training in front-end and back-end development</li>
                         <li>Portfolio Website (HTML, CSS, JavaScript) - <br>A personal portfolio with interactive
@@ -291,10 +295,10 @@
         </div>
     </section>
 
-    <footer style="background-color: #6a0dad; color: white; padding: 20px; text-align: center;">
+    <footer id="contact" style="background-color: #6a0dad; color: white; padding: 20px; text-align: center;">
         <p>&copy; 2025 Jessica Owusua Aning. All rights reserved.</p>
         <p>
-            <a href="" style="color: white; text-decoration: underline;">Contact Me</a>
+            <a href="#contact" style="color: white; text-decoration: underline;">Contact Me</a>
             |
             <a href="https://www.linkedin.com/in/jessica-aning-797162321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank" style="color: white; text-decoration: underline;">LinkedIn</a>
